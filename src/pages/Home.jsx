@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import categories from "../category";
-import Card from "../components/card";
+import Card from "../components/Card.jsx";
 import food_items from "../food.js";
 import { dataContext } from "../context/UserContext.jsx";
-import Cart from "../components/cart";
+import Cart from "../components/Cart.jsx";
 
 function Home() {
   let { cate, setCate, input } = useContext(dataContext);
